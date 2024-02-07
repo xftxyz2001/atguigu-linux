@@ -1,0 +1,3 @@
+使用提供的flume安装包tar.gz完成解压缩,放置到/opt/module目录下,之后在flume的根目录运行flume程序, 运行命令如下:
+bin/flume-ng agent -c conf/ -n a1 -f job/test.conf
+之后查找flume的日志文件flume.log
